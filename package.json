@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "fs-extra": "^9.1.0"
+  },
+  "name": "slack-train",
+  "description": "Convert slack export to plain text for training model",
+  "version": "1.0.0",
+  "main": "convert.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node convert.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teledemic/slack-train.git"
+  },
+  "author": "Carl Irving",
+  "bugs": {
+    "url": "https://github.com/teledemic/slack-train/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/teledemic/slack-train#readme"
+}
